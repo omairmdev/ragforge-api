@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+.venv/
+venv/
+qdrant_data/
+qdrant_storage/
+qdrant_snapshots/
+*.pdf
+.DS_Store
