@@ -42,6 +42,17 @@ curl -N -X POST http://localhost:8000/query \
 
 7. Visit [http://localhost:8000/docs](http://localhost:8000/docs) - That's it! 🎉
 
+## Demo
+
+![RagForge Query Demo](screenshots/ragforge-query-demo.png)
+
+## Tech Stack
+
+- **FastAPI** - Modern, fast web framework for building APIs
+- **LlamaIndex** - RAG framework for document indexing and retrieval
+- **Qdrant** - Vector database for semantic search
+- **Docker** - Containerization and deployment
+
 ## Key Features
 
 - 📄 **PDF ingestion pipeline**: Upload any PDF — automatic text extraction, chunking (1024 tokens, 20 overlap), and embedding via OpenAI `text-embedding-3-small` (1536-dim).
